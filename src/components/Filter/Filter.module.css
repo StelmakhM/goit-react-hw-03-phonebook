@@ -1,0 +1,22 @@
+input {
+  border-radius: 6px;
+  background: var(--primary-color);
+  box-shadow: inset 3px 3px 7px #e9bd7c, inset -3px -3px 7px #ffd98e;
+  min-height: 2.618em;
+  border: var(--quadrary-color) solid 2px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+}
+
+label {
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+}

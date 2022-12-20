@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+
+  font-family: 'Yeseva One', Georgia, cursive;
+  font-size: 16px;
+}
+
+.button {
+  padding: 0.618em 1.2em;
+
+  font-family: 'Yeseva One', Georgia, cursive;
+  font-size: 16px;
+
+  cursor: pointer;
+  background: var(--secondary-color);
+  box-shadow: 4px 4px 8px #c19c66, -4px -4px 8px #fffaa4;
+  border: 1px solid #ec263c66;
+  color: #fff;
+  border-radius: 0.4em;
+  margin-left: auto;
+}
